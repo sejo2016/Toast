@@ -69,7 +69,41 @@ class Example extends Component {
 
     render() {
         return (
-            <div>
+            <div style={{paddingTop: "40px"}}>
+                <div
+                    className="headerBox"
+                    style={{
+                        position: "fixed",
+                        top: "0",
+                        left: "0",
+                        width: "100%",
+                        height: "40px",
+                        lineHeight: "40px",
+                        backgroundColor: "rgb(51, 136, 255)",
+                        color: "white",
+                        fontSize: "16px",
+                        textAlign: "center"
+                    }}
+                >
+                    Header
+                </div>
+                <div
+                    className="footerBox"
+                    style={{
+                        position: "fixed",
+                        bottom: "0",
+                        left: "0",
+                        width: "100%",
+                        height: "40px",
+                        lineHeight: "40px",
+                        backgroundColor: "rgb(51, 136, 255)",
+                        color: "white",
+                        fontSize: "16px",
+                        textAlign: "center"
+                    }}
+                >
+                    Footer
+                </div>
                 <button onClick={this.textToast} style={this.state.style}>
                     文本提示
                 </button>
