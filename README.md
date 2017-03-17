@@ -30,4 +30,4 @@ npm run dev
 ![example图片示例][1]
 
 
-  [1]: http://7xt9bz.com2.z0.glb.clouddn.com/Toast.png
+  [1]: http://7xt9bz.com2.z0.glb.clouddn.com/GIF.gif
