@@ -1,5 +1,7 @@
+# Toast
+
 ## 说明
-Toast 为一款基于react的移动端轻提示
+Toast 为一款基于react的移动端轻提示组件
 
 ## 下载
 ```
