@@ -3,6 +3,8 @@ var autoprefixer = require('autoprefixer');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 var webpack = require('webpack');
+var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+
 module.exports = {
     entry: {
         'Index': './example/index.js'
@@ -59,6 +61,7 @@ module.exports = {
                 'NODE_ENV': JSON.stringify('development')
                 // 'NODE_ENV': JSON.stringify('production')
             }
-        })
+        }),
+        new OpenBrowserPlugin({url: 'http://localhost:8080'})
     ]
 };
