@@ -8,8 +8,7 @@
         "url": "https://github.com/Lzzzzzq/Toast"
     },
     "scripts": {
-        "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color --inline --hot --config webpack.dev.js",
-        "build": "webpack --config webpack.pro.js -p"
+        "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color --inline --hot --config webpack.dev.js"
     },
     "keywords": [
         "toast",
