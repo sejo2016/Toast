@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {render} from "react-dom";
-import Toast from "../lib/index";
+import Toast from "../lib/index.jsx";
 
 class Example extends Component {
     constructor(props) {

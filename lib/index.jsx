@@ -3,7 +3,7 @@
  */
 import React from "react";
 import {render} from "react-dom";
-import Model from "./Model";
+import Model from "./Model.jsx";
 
 const div = document.createElement("div");
 document.body.appendChild(div);
