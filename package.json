@@ -1,6 +1,6 @@
 {
     "name": "react-simple-toast",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "基于react的移动端轻提示组件",
     "main": "index.js",
     "repository": {
@@ -8,7 +8,8 @@
         "url": "https://github.com/Lzzzzzq/Toast"
     },
     "scripts": {
-        "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color --inline --hot --config webpack.dev.js"
+        "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color --inline --hot --config webpack.dev.js",
+        "build": "webpack --config webpack.pro.js -p"
     },
     "keywords": [
         "toast",
