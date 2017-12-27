@@ -8,7 +8,7 @@ var webpack = require('webpack');
 module.exports = {
     entry: {
         // "vendor": ['react', 'react-dom', 'classnames'],
-        'Index': './lib/index.js'
+        'index': './lib/index.js'
     },
     output: {
         path: path.join(__dirname, 'build'),
@@ -70,12 +70,12 @@ module.exports = {
         //     threshold: 10240,
         //     minRatio: 0.8
         // }),
-        new HtmlWebpackPlugin({
-            filename: 'index.html',
-            template: 'example/index.html',
-            chunks: ['Index'],
-            inject: true,
-        }),
+        // new HtmlWebpackPlugin({
+        //     filename: 'index.html',
+        //     template: 'example/index.html',
+        //     chunks: ['index'],
+        //     inject: true,
+        // }),
         // new webpack.optimize.CommonsChunkPlugin({
         //     names: ["vendor", "init"],
         //     minChunks: Infinity
