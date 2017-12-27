@@ -1,8 +1,8 @@
 {
     "name": "react-simple-toast",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "基于react的移动端轻提示组件",
-    "main": "lib/index.js",
+    "main": "index.js",
     "repository": {
         "type": "git",
         "url": "https://github.com/Lzzzzzq/Toast"

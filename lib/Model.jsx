@@ -1,9 +1,9 @@
 /**
  * Created by Lzzzzzq on 2017/3/14.
  */
-import React, {Component} from 'react';
-import classnames from 'classnames';
-import './style/index.scss';
+import React, {Component} from "react";
+import classnames from "classnames";
+import "./style/index.scss";
 
 class Model extends Component {
     constructor(props) {

@@ -17,7 +17,7 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.js$/,
+                test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
                 loader: "babel",
                 query: {
@@ -43,7 +43,7 @@ module.exports = {
     },
     resolve: {
         modulesDirectories: ['node_modules', path.join(__dirname, '../node_modules')],
-        extensions: ['', '.web.js', '.js', '.json']
+        extensions: ['', '.web.js', '.js', '.jsx', '.json']
     },
     devtool: 'source-map',
     postcss: function () {

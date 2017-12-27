@@ -1,9 +1,9 @@
 /**
  * Created by Lzzzzzq on 2017/3/14.
  */
-import React from 'react';
-import {render} from 'react-dom';
-import Model from './Model';
+import React from "react";
+import {render} from "react-dom";
+import Model from "./Model";
 
 const div = document.createElement("div");
 document.body.appendChild(div);
