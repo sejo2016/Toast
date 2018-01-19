@@ -1,7 +1,17 @@
 {
-    "name": "ToastRebuild",
-    "version": "1.0.0",
-    "main": "index.js",
+    "name": "react-simple-toast",
+    "version": "1.0.9",
+    "description": "基于react的移动端轻提示组件",
+    "main": "lib/index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/Lzzzzzq/Toast"
+    },
+    "keywords": [
+        "toast",
+        "react"
+    ],
+    "author": "Lzzzzzq",
     "license": "MIT",
     "scripts": {
         "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --color --port 1234 --inline --hot --config webpack.dev.js",
