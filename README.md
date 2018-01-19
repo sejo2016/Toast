@@ -3,18 +3,33 @@
 ## 说明
 Toast 为一款基于react的移动端轻提示组件
 
-## 下载
-```
-git clone https://github.com/Lzzzzzq/Toast.git
-
-cd Toast
-
-npm install
+## 安装
 ```
 
-## 运行
+// npm
+npm install --save react-simple-toast
+
+// cnpm 
+cnpm install --save react-simple-toast
+
+// yarn
+yarn add react-simple-toast
+
 ```
-npm run dev
+
+## 使用方法
+```
+
+import Toast from 'react-simple-toast';
+
+...
+
+Toast({
+    type: "msg",  // 类型
+    msg: "文本提示", // 文字内容
+    duration: 2000 // 显示时间
+})
+
 ```
 
 ## 参数说明
