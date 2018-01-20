@@ -1,6 +1,6 @@
 {
     "name": "react-simple-toast",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "基于react的移动端轻提示组件",
     "main": "lib/index.js",
     "repository": {
@@ -9,7 +9,8 @@
     },
     "keywords": [
         "toast",
-        "react"
+        "react",
+        "mobile"
     ],
     "author": "Lzzzzzq",
     "license": "MIT",
