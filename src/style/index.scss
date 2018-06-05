@@ -21,14 +21,14 @@
         color: white;
         background-color: rgba(0, 0, 0, 0.9);
         border-radius: 4px;
-        font-size: 14px;
+        font-size: .16rem;
         opacity: 1;
         transition-property: opacity, transform;
         transition-duration: 0.2s;
         transform: translate(0, -50%);
 
         .toastInnerBox {
-            padding: 5px 10px;
+            padding: .25em .5em;
 
             .toastInnerText {
                 width: 100%;
