@@ -119,7 +119,7 @@ class Model extends Component {
                         })
                     }
                     style={{
-                        padding: this.state.msg != "" ? "10px" : "0"
+                        padding: this.state.msg != "" ? ".8em" : "0"
                     }}
                 >
                     { toastContent }

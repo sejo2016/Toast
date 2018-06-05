@@ -1,3 +1,4 @@
+
 .toastInit {
     display: none !important;
 }
@@ -17,11 +18,11 @@
     font-family: "Microsoft YaHei";
 
     .toastContent {
-        max-width: 40%;
+        max-width: 50%;
         color: white;
         background-color: rgba(0, 0, 0, 0.9);
         border-radius: 4px;
-        font-size: 16px;
+        font-size: .3rem;
         opacity: 1;
         transition-property: opacity, transform;
         transition-duration: 0.2s;
